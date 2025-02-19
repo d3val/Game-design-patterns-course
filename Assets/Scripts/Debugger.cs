@@ -12,5 +12,4 @@ public class Debugger : MonoBehaviour {
             Debug.Log($"Exp: {level.GetExperience()}, Level: {level.GetLevel()}, Health: {health.GetHealth()}");
         }
     }
-
 }
