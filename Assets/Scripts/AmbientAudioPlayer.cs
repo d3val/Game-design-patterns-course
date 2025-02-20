@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class AmbientAudioPlayer : MonoBehaviour
 {
+    /* Singleton pattern
     private static AmbientAudioPlayer _instance = null;
 
     private void Awake()
@@ -16,8 +17,9 @@ public class AmbientAudioPlayer : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
+    
     private AmbientAudioPlayer() { }
+    */
 
     public void FadeMusic(AudioClip clip)
     {
